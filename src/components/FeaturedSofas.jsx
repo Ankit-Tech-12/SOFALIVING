@@ -1,45 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { SlidersHorizontal } from "lucide-react";
-import { sofas } from "@/data/sofas";
-
-const sofaDetails = {
-  Luna: {
-    title: "The Luna Curved",
-    label: "Curved Artistry",
-    description:
-      "Organic curved silhouette enveloped in soft, tactile boucle. Ideal for fluid, conversational open-plan spaces.",
-    features: [
-      "Curved Silhouette",
-      "High-Traffic Boucle",
-      "Soft Density",
-    ],
-  },
-
-  Urban: {
-    title: "The Urban Mid-Century",
-    label: "Modern Classic",
-    description:
-      "Clean geometric profiles, button-tufted backrests, and tapered walnut legs. Tailored for urban architectural spaces.",
-    features: [
-      "Mid-Century Clean Lines",
-      "Solid Walnut Trim",
-      "Firm Ergonomic Support",
-    ],
-  },
-
-  Cloud: {
-    title: "The Cloud Sectional",
-    label: "Deep Sanctuary",
-    description:
-      "Generous deep-seated sectional lounge featuring modular ottoman configuration and dual-layer microfibre down.",
-    features: [
-      "L-Shape Modular",
-      'Deep Lounge 42"',
-      "Stain-Resistant Linen",
-    ],
-  },
-};
+import { sofas, sofaDetails } from "@/data/sofas";
 
 export default function FeaturedSofas() {
   return (

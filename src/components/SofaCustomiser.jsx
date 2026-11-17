@@ -6,35 +6,12 @@ import {
   sofas,
   fabrics,
   configurations,
+  colorOptions,
+  modelDescriptions,
+  configurationDescriptions,
+  fabricDescriptions,
 } from "@/data/sofas";
 import { Check, ShieldCheck, ArrowDown } from "lucide-react";
-
-const colorOptions = {
-  Beige: "#D8C3A5",
-  Grey: "#858585",
-  Blue: "#526F91",
-  Green: "#657B61",
-  Charcoal: "#393939",
-  Terracotta: "#B96B50",
-};
-
-const modelDescriptions = {
-  Luna: "Curved Boucle",
-  Urban: "Mid-Century Clean",
-  Cloud: "Deep Sectional",
-};
-
-const fabricDescriptions = {
-  Linen: "Breathable, tactile, organic weave",
-  Velvet: "Plush depth and soft texture",
-  Leatherette: "Scratch-resistant and easy to clean",
-};
-
-const configurationDescriptions = {
-  "2 Seater": "Compact",
-  "3 Seater": "Signature",
-  "L Shape": "With Chaise",
-};
 
 function formatPrice(price) {
   return `₹${price.toLocaleString("en-IN")}`;
